@@ -1,0 +1,98 @@
+/* -----------------------------------------------
+                style for mobile devices 
+--------------------------------------------------- */
+
+@media only screen and (max-width: 688px) {
+
+    /* common style  */
+
+    .container {
+        width: 95%;
+    }
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 70px;
+    }
+
+    /* banner style  */
+    .banner {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .banner-title-description {
+        width: 100%;
+        margin-left: auto;
+        align-items: center;
+
+
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 33px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
+    .banner-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-img img {
+        width: 233px;
+        margin-top: 57px;
+    }
+
+    /* manu section style */
+    .manu {
+        display: none;
+
+    }
+
+    /*----------------------------
+         blog style
+----------- --------------- */
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        align-items: center;
+
+    }
+
+    .all-view-btn a {
+        display: none;
+    }
+
+    /* -------------------------------
+            footer style 
+----------------------------- */
+    .footer {
+
+        height: auto;
+        padding: 24px 0px
+    }
+
+    .footer-manu-bar {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+}
