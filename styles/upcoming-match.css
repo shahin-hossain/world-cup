@@ -1,0 +1,67 @@
+/* -----------------------------
+            Manu style 
+------------------------------- */
+.upcoming-match-btn {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+.blog-btn {
+    background-color: #ffffff;
+    color: #161616;
+}
+
+/*---------------------------------------
+     Upcomming Match Container Style 
+---------------------------------------- */
+.upcoming-matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.upcoming-match {
+    padding: 53px 30px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+
+/* flag style  */
+.flags {
+    display: flex;
+    column-gap: 20.92px;
+    align-items: center;
+}
+
+.flag {
+    width: 93.04px;
+    height: 56.18px;
+}
+
+/* vs word style  */
+.vs-style {
+    font-weight: 700;
+    font-size: 16px;
+    color: #161616;
+}
+
+/* Match detail style  */
+
+.match-detail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.match-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+.match-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}

@@ -124,6 +124,11 @@ body {
     color: #ffffff;
 }
 
+.side-btn:hover {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
 /*----------------------------
          blog style
 ----------- --------------- */
@@ -184,7 +189,7 @@ body {
     color: #FFFFFF;
     border-radius: 5px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
 
     display: none;
 }
